@@ -19,6 +19,11 @@ The repository showcases two operational states of the strategic Power BI dashbo
    * Demonstrates the dashboard's interactive slicing capabilities. When an analyst targets specific regional vectors, the entire canvas dynamically cross-filters down to **32.54K Total Units Demanded** and **31.20K Predicted Units**.
    * The Active Shortage Alerts card instantly recalculates to isolate exactly **264 high-risk local disruptions**, while the hospital matrix narrows down specifically to target urgent allocation exceptions across the *Max Super Speciality* clinical hub network.
    ![Targeted Micro Filter View]![alt text](<Isolated Risk Constraints State.png>)
+
+#### 3. Operational Performance Layer (Static HTML Web Interface)
+A lightweight execution grid compiled natively via Python to handle high-throughput warehousing records without the performance footprint of heavy runtime graphics. This interface formats operational target parameters and highlights logistical alerts directly on the floor level.
+
+![Operational Web Interface Layout](<visual_dashboard.png>)
 ---
 
 ## 🚀 Key Architectural Highlights
